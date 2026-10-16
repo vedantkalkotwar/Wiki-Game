@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/wiki/:title*", "destination": "/api/wiki?title=:title*" }
+  ]
+}
